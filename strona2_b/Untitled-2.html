@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podstrona_1</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', sans-serif;
+            margin: 20px;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 0 1px 30px rgb(135, 5, 29);
+
+        }
+        .container {
+            background-color: rgb(60, 5, 12);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            border: 2px solid rgb(0, 0, 0);
+            margin-bottom: 20px;
+            padding: 10px;
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            
+        }
+        .col {
+            background-color: whitesmoke;
+            box-shadow: 0 4px 10px rgb(194, 218, 220); /* Shadow effect */
+            padding: 10px;
+            box-sizing: border-box;
+            flex: 1 1 calc(8% - 20px); /* 8% width with margins */
+            margin: 5px;
+            
+        }
+        .full {
+            flex-basis: 100%;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            
+        }
+        p{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row full">
+            <div class="col">
+                Lorem ipsum odor amet, consectetuer adipiscing elit. Dictum ridiculus magna sem hac platea viverra nisi hac dignissim! 
+                Mattis natoque id lacinia, commodo nascetur velit. Sem blandit placerat est nulla risus sodales curabitur adipiscing erat.
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                Lorem ipsum odor amet, consectetuer adipiscing elit. Dictum ridiculus magna sem hac platea viverra nisi hac dignissim!
+            </div>
+            <div class="col">
+                Lorem ipsum odor amet, consectetuer adipiscing elit. Dictum ridiculus magna sem hac platea viverra nisi hac dignissim!
+            </div>
+            <div class="col">
+                Lorem ipsum odor amet, consectetuer adipiscing elit. Dictum ridiculus magna sem hac platea viverra nisi hac dignissim!
+            </div>
+            <div class="col">
+                Lorem ipsum odor amet, consectetuer adipiscing elit. Dictum ridiculus magna sem hac platea viverra nisi hac dignissim!
+            </div>
+            <div class="col">
+                Lorem ipsum odor amet, consectetuer adipiscing elit. Dictum ridiculus magna sem hac platea viverra nisi hac dignissim!
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                Lorem ipsum odor amet, consectetuer adipiscing elit. Dictum ridiculus magna sem hac platea viverra nisi hac dignissim!
+            </div>
+            <div class="col">
+                Lorem ipsum odor amet, consectetuer adipiscing elit. Dictum ridiculus magna sem hac platea viverra nisi hac dignissim!
+            </div>
+            <div class="col">
+                Lorem ipsum odor amet, consectetuer adipiscing elit. Dictum ridiculus magna sem hac platea viverra nisi hac dignissim!
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <img src = "wiedzmin.jpg" width = "100%" alt= "wiedzmin1"><p>wiedzmin1</p>
+            </div>
+            <div class="col">
+                <img src = "wiedzmin.jpg" width = "100%" alt= "wiedzmin2"><p>wiedzmin2</p>
+            </div>
+            <div class="col">
+                <img src = "wiedzmin.jpg" width = "100%" alt= "wiedzmin3"><p>wiedzmin3</p>
+            </div>
+            <div class="col">
+                <img src = "wiedzmin.jpg" width = "100%" alt= "wiedzmin4"><p>wiedzmin4</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
