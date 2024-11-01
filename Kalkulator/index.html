@@ -53,7 +53,11 @@
             padding: 10px;
             flex: auto; /* 8% width with margins  1 1 calc(8% - 20px)*/
             margin: 5px;
-            height: 70px;          
+            height: 70px; 
+
+            overflow: hidden; /* Ukrywa nadmiarowy tekst */
+            text-overflow: ellipsis; /* Opcjonalnie dodaje wielokropek na końcu */
+            white-space: nowrap; 
         }
         h2{
             text-align: center;
@@ -68,12 +72,6 @@
             padding: 10px;
             flex: 1 1 calc(8% - 20px); /* 8% width with margins  1 1 calc(8% - 20px)*/
             margin: 5px;  
-        }
-        #expression {
-        min-height: 70px; /* Ustal minimalną wysokość */
-        overflow-wrap: break-word; /* Umożliw zawijanie długiego tekstu */
-        font-size: 24px; /* Ustal czcionkę */
-        text-align: right; /* Wyrównanie tekstu */
         }
         
     </style>
