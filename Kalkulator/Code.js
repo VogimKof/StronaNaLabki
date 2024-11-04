@@ -1,22 +1,22 @@
 
 
-function addToExpression(value) {
+function Dodaj(value) {
     const expressionElement = document.getElementById('expression');
     expressionElement.textContent += value; 
 }
 
-function Erase() {
+function Wyczyść() {
     const expressionElement = document.getElementById('expression');
     expressionElement.textContent = ''; 
 }
 
-function Evaluate() {
+function Oblicz() {
     const expressionElement = document.getElementById('expression');
     try {
         const result = eval(expressionElement.textContent);
         expressionElement.textContent = result; 
     } catch (error) {
-        expressionElement.textContent = 'Error';
+        expressionElement.textContent = 'Błąd';
     }
 }
 
